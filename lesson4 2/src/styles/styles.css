@@ -1,0 +1,49 @@
+/* Загальний стиль для TodoList */
+.todo-list {
+    background-color: #fff8e1; /* Світло-жовтий фон для списку */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-list h2 {
+    color: #fbc02d; /* Темно-жовтий для заголовка */
+    text-align: center;
+  }
+  
+  .todo-item {
+    background-color: #fffde7; /* Світло-жовтий фон для кожного елемента */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-item button {
+    background-color: #fbc02d; /* Темно-жовта кнопка */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .todo-item button:hover {
+    background-color: #f57f17; /* Темніша жовта для кнопки при наведенні */
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #fbc02d;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #f57f17; /* Фокус на інпуті */
+  }
+  
